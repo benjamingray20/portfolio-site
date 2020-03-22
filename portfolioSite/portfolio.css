@@ -1,0 +1,92 @@
+body {
+  background: linear-gradient(to bottom, #f2f0f1 0%,#f2f0f1 30%,#838f8f 30%, #838f8f 100%);
+  color: black;
+  font-family:d-din ;
+  font-size: 18px;
+  margin: 0;
+  min-height: 100vh;
+}
+.name{
+  text-align: center;
+  font-family: d-din-bold;
+  position: relative;
+  bottom: -30px;
+}
+
+.description {
+  font-size: 20px;
+  text-align: center;
+   position: relative;
+  bottom: -30px;
+}
+
+.resources{
+  font-family: d-din;
+  font-size: 28px;
+  background-color: #AAE4DB;
+  color:black;
+  font-weight: 400;
+  padding: 5px 0;
+  text-align: center;
+  text-transform: uppercase;
+  position: relative;
+  bottom: -80px;
+}
+
+.links {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: center;
+  
+  bottom: -150px;
+}
+
+.link{
+  background-color: #AAE4DB;
+  border: 2px solid #f2f0f1;
+  padding: 12px 24px;
+  text-align: center;
+  width: 90px;
+  font-size: 12xpx;
+  border-radius: 8px;
+  
+  cursor: pointer;  
+   color: #f2f0f1;     
+}
+.link:hover{
+  background-color: #f2f0f1;
+  color:#f2f0f1;
+}
+.photo{
+  width: 10%;
+  height: 10%;
+}
+
+.footer{
+position: fixed;
+  left: 0;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+
+
+
+@font-face {
+  font-family: d-din;
+  src: url(../portfolioSite/fonts/D-din.otf)
+}
+@font-face {
+  font-family: d-din-bold;
+  src: url(../portfolioSite/fonts/D-DIN-Bold.otf.otf)
+}
+@font-face {
+  font-family: d-dinexp-bold;
+  src: url(../portfolioSite/fonts/D-DINExp-Bold.otf.otf)
+}
+  
+  
+
