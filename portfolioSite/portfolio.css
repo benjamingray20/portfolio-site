@@ -8,72 +8,61 @@ body {
 }
 .name{
   text-align: center;
-  font-family: d-din-bold;
   position: relative;
   bottom: -30px;
-}
-
-.description {
-  font-size: 20px;
-  text-align: center;
-   position: relative;
-  bottom: -30px;
-}
-
-.resources{
   font-family: d-din;
   font-size: 28px;
-  background-color: #AAE4DB;
-  color:black;
-  font-weight: 400;
-  padding: 5px 0;
-  text-align: center;
-  text-transform: uppercase;
-  position: relative;
-  bottom: -80px;
+  text-transform: uppercase; 
+  display: block;
+  cursor: pointer;
 }
 
-.links {
-  position: relative;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-content: center;
-  
-  bottom: -150px;
+.name:link{
+  color: black;
+  text-decoration: none;
+}
+.name:visited{
+  color: black;
 }
 
-.link{
-  background-color: #AAE4DB;
+.aboutMe {
+  margin: 0 auto;
+  margin-top: 100px;
+  width: 50%;
+}
+
+table {
+  border-collapse: separate;
+  padding: 12px;
+  width: 52%;
+  margin: 0 340px;
+  margin-top: 100px;
+  border-spacing: 10px;
+}
+
+th{
+  background-color: #F5C269;
   border: 2px solid #f2f0f1;
-  padding: 12px 24px;
+  padding: 10px;
   text-align: center;
-  width: 90px;
   font-size: 12xpx;
-  border-radius: 8px;
-  
-  cursor: pointer;  
-   color: #f2f0f1;     
+  cursor: pointer;       
 }
-.link:hover{
-  background-color: #f2f0f1;
-  color:#f2f0f1;
-}
-.photo{
-  width: 10%;
-  height: 10%;
+th a {
+  display: block;
 }
 
-.footer{
-position: fixed;
-  left: 0;
-  bottom: 10px;
-  width: 100%;
-  text-align: center;
+.link:link {
+  color: black;
+  text-decoration: none;
 }
 
-
-
+.link:visited{
+  color: black;
+}
+th:hover{
+  background-color: #838f8f;
+}
 
 @font-face {
   font-family: d-din;
@@ -87,6 +76,3 @@ position: fixed;
   font-family: d-dinexp-bold;
   src: url(../portfolioSite/fonts/D-DINExp-Bold.otf.otf)
 }
-  
-  
-
